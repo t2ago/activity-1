@@ -1,31 +1,31 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     cadeia nomeProduto
     inteiro quantidadeProduto
     real precoUnitario, precoTotal, desconto, precoFinal
 
     // solicitando dados
-    escreva("DescriÁ„o do produto: ")
+    escreva("Descri√ß√£o do produto: ")
     leia(nomeProduto)
 
     escreva("Quantidade adquirida do produto: ")
     leia(quantidadeProduto)
 
-    escreva("PreÁo unit·rio do produto: ")
+    escreva("Pre√ßo unit√°rio do produto: ")
     leia(precoUnitario)
 
-    // c·lculos
+    // c√°lculos
     se (quantidadeProduto <=5) {
-      desconto = 0.2
+      desconto = 0.02
     }
 
     senao se (quantidadeProduto >5 e quantidadeProduto <=10) {
-      desconto = 0.3
+      desconto = 0.03
     }
 
     se (quantidadeProduto >10) {
-      desconto = 0.5
+      desconto = 0.05
     }
     
     precoTotal = quantidadeProduto * precoUnitario
@@ -34,9 +34,9 @@ programa {
     // exibindo resultados
     limpa()
     escreva("=== Exibindo resultados ===")
-    escreva("\nDescriÁ„o do produto: ",nomeProduto)
+    escreva("\nDescri√ß√£o do produto: ",nomeProduto)
     escreva("\nQuantidade adquirida: ",quantidadeProduto)
-    escreva("\nPreÁo unit·rio: ",precoUnitario)
-    escreva("\nTotal ‡ pagar: ",precoFinal)
+    escreva("\nPre√ßo unit√°rio: ",precoUnitario)
+    escreva("\nTotal √† pagar: ",precoFinal)
   }
 }
