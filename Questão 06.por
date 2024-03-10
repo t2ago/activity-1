@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // variáveis
+    // variÃ¡veis
     real primeiraNota, segundaNota, media
     cadeia aluno
 
@@ -14,7 +14,7 @@ programa {
     escreva("Segunda nota: ")
     leia(segundaNota)
 
-    // cálculos
+    // cÃ¡lculos
     media = (primeiraNota + segundaNota) / 2
 
     // exibindo dados
@@ -23,18 +23,18 @@ programa {
     escreva("\nNome do aluno: ", aluno)
     escreva("\nPrimeira nota: ", primeiraNota)
     escreva("\nSegunda nota: ", segundaNota)
-    escreva("\nSua média é: ", media)
+    escreva("\nSua mÃ©dia Ã©: ", media)
 
     se (media >=6) {
-    escreva("\nPARABÉNS O ALUNO ESTÁ APROVADO!")
+    escreva("\nPARABÃ‰NS O ALUNO ESTÃ APROVADO!")
     } 
 
     senao se (media >= 4 e media <6) {
-    escreva("\nO ALUNO ESTÁ NA RECUPERAÇÃO")
+    escreva("\nO ALUNO ESTÃ NA RECUPERAÃ‡ÃƒO")
     }
     
     se (media <4) {
-    escreva("\nO ALUNO ESTÁ REPROVADO")
+    escreva("\nO ALUNO ESTÃ REPROVADO")
     }
   }
 }
