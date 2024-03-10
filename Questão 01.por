@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     real valorA, valorB, valorC, soma
 
     // solicitando dados
@@ -13,16 +13,16 @@ programa {
     escreva("Digite o valor de C: ")
     leia(valorC)
 
-    // c·lculos
+    // c√°lculos
     soma = valorA + valorB
     
     // exibindo resultados
     limpa()
     escreva("=== Exibindo resultados ===\n")
     se (soma < valorC) {
-      escreva(soma," È menor que ", valorC)
+      escreva(soma," √© menor que ", valorC)
     } senao {
-      escreva(soma," È maior que ", valorC)
+      escreva(soma," √© maior que ", valorC)
     }
   }
 }
