@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     real valorEmprestimo, rendaMensal, valorPrestacoes, valorMaxPrestacoes
     inteiro numPrestacoes
 
@@ -8,10 +8,10 @@ programa {
     escreva("Digite sua renda mensal: ")
     leia(rendaMensal)
 
-    escreva("Digite o valor do emprÈstimo: ")
+    escreva("Digite o valor do empr√©stimo: ")
     leia(valorEmprestimo)
 
-    escreva("Digite o n˙mero de prestaÁıes: ")
+    escreva("Digite o n√∫mero de presta√ß√µes: ")
     leia(numPrestacoes)
 
     // declarando valores
@@ -22,13 +22,13 @@ programa {
     limpa()
     escreva("=== Exibindo resultados ===")
     escreva("\nRenda mensal: ",rendaMensal)
-    escreva("\nValor do emprÈstimo: ",valorEmprestimo)
-    escreva("\nN˙mero de prestaÁıes: ",numPrestacoes)
+    escreva("\nValor do empr√©stimo: ",valorEmprestimo)
+    escreva("\nN√∫mero de presta√ß√µes: ",numPrestacoes)
     
     se (valorEmprestimo > 10 * rendaMensal ou valorPrestacoes > valorMaxPrestacoes) {
-      escreva("\n- EmprÈstimo N√O autorizado!")
+      escreva("\n- Empr√©stimo N√ÉO autorizado!")
     } senao {
-      escreva("\n- EmprÈstimo autorizado! -")
+      escreva("\n- Empr√©stimo autorizado! -")
     }
   }
 }
