@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     real valorA, valorB, valorC, soma, mutiplicacao
 
     // solicitando dados
@@ -14,7 +14,7 @@ programa {
     soma = valorA + valorB 
     mutiplicacao = valorA * valorB 
     
-    // c·lculos
+    // c√°lculos
     limpa()
     se (valorA == valorB) {
       valorC = soma
