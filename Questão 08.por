@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     real cores
 
     // solicitando dados
