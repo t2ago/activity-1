@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     inteiro valorA, valorB
     real valorC, soma, subtracao, mutiplicacao, divisao
     caracter operacao
@@ -12,7 +12,7 @@ programa {
     escreva("Digite o valor B: ")
     leia(valorB)
     
-    escreva("Digite a operaÁ„o: ")
+    escreva("Digite a opera√ß√£o: ")
     leia(operacao)
     
     // declarando valores
@@ -21,7 +21,7 @@ programa {
     mutiplicacao = valorA * valorB
     divisao = valorA / valorB
 
-    // c·lculos
+    // c√°lculos
     se (operacao == '+') {
       valorC = soma
     }
