@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // vari·veis
+    // vari√°veis
     cadeia nome, estadoCivil
     caracter sexo
     inteiro anosCasada
@@ -15,7 +15,7 @@ programa {
     escreva("Estado civil: ")
     leia(estadoCivil)
 
-    // c·lculos
+    // c√°lculos
     limpa()
     se (sexo == 'f' ou 'F' e estadoCivil == "Casada" ou "CASADA" ou "casada") {
       escreva("Digite anos de casada: ")
