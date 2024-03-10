@@ -1,13 +1,13 @@
 programa {
   funcao inicio() {
-    // variáveis
+    // variÃ¡veis
     real precoMorango, precoMaca, kgMorango, kgMaca, kgTotal, valorTotal
 
     // solicitando dados
-    escreva("Quantos Kg de morangos você vai querer: ")
+    escreva("Quantos Kg de morangos vocÃª vai querer: ")
     leia(kgMorango)
 
-    escreva("Quantos Kg de maçãs você vai querer: ")
+    escreva("Quantos Kg de maÃ§Ã£s vocÃª vai querer: ")
     leia(kgMaca)
 
     // atribuindo valores
@@ -26,7 +26,7 @@ programa {
     kgTotal = kgMorango + kgMaca
     valorTotal = precoMaca + precoMorango
 
-    // cálculos
+    // cÃ¡lculos
     se (kgTotal >=8 ou valorTotal >=25) {
       valorTotal = valorTotal * 0.9
     } senao {
@@ -36,6 +36,6 @@ programa {
     // exibindo resulados
     limpa()
     escreva("=== Exibindo Resultados ===")
-    escreva("\nValor à pagar: ",valorTotal)
+    escreva("\nValor Ã  pagar: ",valorTotal)
   }
 }
