@@ -14,22 +14,22 @@ programa {
 
     escreva("Preço unitário do produto: ")
     leia(precoUnitario)
+    // declarando valores
+    precoTotal = quantidadeProduto * precoUnitario
 
     // cálculos
-    se (quantidadeProduto <=5) {
-      desconto = 0.02
-    }
-
-    senao se (quantidadeProduto >5 e quantidadeProduto <=10) {
-      desconto = 0.03
-    }
-
-    se (quantidadeProduto >10) {
-      desconto = 0.05
-    }
+    escolha (quantidadeProduto) {
+    caso quantidadeProduto <=25:
+    desconto = 0.02 * precoTotal
+    pare
+    caso quantidadeProduto >5 e quantidadeProduto <=10:
+    desconto = 0.03 * precoTotal
+    pare
+    caso contrario:
+    desconto = 0.05 * precoTotal
+   }
     
-    precoTotal = quantidadeProduto * precoUnitario
-    precoFinal = desconto * precoTotal
+    precoFinal = precoTotal - desconto
 
     // exibindo resultados
     limpa()
@@ -37,6 +37,6 @@ programa {
     escreva("\nDescrição do produto: ",nomeProduto)
     escreva("\nQuantidade adquirida: ",quantidadeProduto)
     escreva("\nPreço unitário: ",precoUnitario)
-    escreva("\nTotal à pagar: ",precoFinal)
+    escreva("\nTotal à pagar: R$ ",precoFinal)
   }
 }
